@@ -1,5 +1,8 @@
 [[plugins]]
 repo = 'itchyny/lightline.vim'
+hook_add = '''
+  let g:lightline = {'colorscheme': 'iceberg'}
+'''
 
 [[plugins]]
 repo = 'cocopon/iceberg.vim'
