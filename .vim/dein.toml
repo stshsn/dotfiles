@@ -1,0 +1,8 @@
+[[plugins]]
+repo = 'itchyny/lightline.vim'
+
+[[plugins]]
+repo = 'cocopon/iceberg.vim'
+hook_add = '''
+  autocmd VimEnter * nested colorscheme iceberg
+'''
