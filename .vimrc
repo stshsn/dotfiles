@@ -1,5 +1,6 @@
 " Features
 set nocompatible
+set background=dark
 
 " dein.vim settings {{{
 " install dir {{{
