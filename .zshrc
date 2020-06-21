@@ -35,6 +35,9 @@ case "${OSTYPE}" in
 esac
 
 alias ll="ls -l"
+alias cp="cp -i"
+alias mv="mv -i"
+alias rm="rm -i"
 
 # History
 HISTSIZE=10000
