@@ -79,16 +79,16 @@ set number
 
 " Indentation options
 set tabstop=4
-set shiftwidth=4
-set softtabstop=0
+set shiftwidth=0
+set softtabstop=-1
 set shiftround
 set expandtab
 
 augroup fileTypeIndent
     autocmd!
-    autocmd BufNewFile,BufRead *.js   setlocal tabstop=2 softtabstop=0 shiftwidth=2
-    autocmd BufNewFile,BufRead *.ts   setlocal tabstop=2 softtabstop=0 shiftwidth=2
-    autocmd BufNewFile,BufRead *.html setlocal tabstop=2 softtabstop=0 shiftwidth=2
-    autocmd BufNewFile,BufRead *.vue  setlocal tabstop=2 softtabstop=0 shiftwidth=2
+    autocmd BufNewFile,BufRead *.js   setlocal tabstop=2 softtabstop=-1 shiftwidth=0
+    autocmd BufNewFile,BufRead *.ts   setlocal tabstop=2 softtabstop=-1 shiftwidth=0
+    autocmd BufNewFile,BufRead *.html setlocal tabstop=2 softtabstop=-1 shiftwidth=0
+    autocmd BufNewFile,BufRead *.vue  setlocal tabstop=2 softtabstop=-1 shiftwidth=0
 augroup END
 
