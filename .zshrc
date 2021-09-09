@@ -48,3 +48,4 @@ setopt hist_verify
 
 # PATH
 eval "$(nodenv init -)"
+export PATH="/usr/local/sbin:${PATH}"
