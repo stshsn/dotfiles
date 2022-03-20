@@ -47,5 +47,6 @@ setopt share_history
 setopt hist_verify
 
 # PATH
+typeset -U path PATH
 eval "$(nodenv init -)"
 export PATH="/usr/local/sbin:${PATH}"
