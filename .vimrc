@@ -31,7 +31,7 @@ if dein#load_state(s:dein_dir)
 
   " read toml and cache
   call dein#load_toml(s:toml, {'lazy': 0})
-  "call dein#load_toml(s:lazy, {'lazy': 1})
+  call dein#load_toml(s:lazy, {'lazy': 1})
 
   " end dein settings
   call dein#end()
