@@ -91,4 +91,3 @@ augroup fileTypeIndent
     autocmd BufNewFile,BufRead *.html setlocal tabstop=2 softtabstop=-1 shiftwidth=0
     autocmd BufNewFile,BufRead *.vue  setlocal tabstop=2 softtabstop=-1 shiftwidth=0
 augroup END
-
