@@ -52,6 +52,8 @@ Plug 'cohama/lexima.vim'
 Plug 'mattn/emmet-vim'
 Plug 'pangloss/vim-javascript'
 Plug 'posva/vim-vue'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
 call plug#end()
 
 let g:lightline = {'colorscheme': 'edge'}
