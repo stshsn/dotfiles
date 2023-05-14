@@ -3,6 +3,7 @@ import:
 
 env:
   TERM: xterm-256color
+  LC_CTYPE: ja_JP.UTF-8
 
 window:
   dimensions:
@@ -21,16 +22,16 @@ font:
   size: 12.0
 
   normal:
-    family: 'HackGen35 Console NFJ'
+    family: 'HackGen35 Console NF'
     style: Regular
   bold:
-    family: 'HackGen35 Console NFJ'
+    family: 'HackGen35 Console NF'
     style: Bold
   italic:
-    family: 'HackGen35 Console NFJ'
+    family: 'HackGen35 Console NF'
     style: Bold
   bold_italic:
-    family: 'HackGen35 Console NFJ'
+    family: 'HackGen35 Console NF'
     style: Bold
 
   offset:
