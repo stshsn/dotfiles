@@ -50,3 +50,5 @@ setopt hist_verify
 typeset -U path PATH
 eval "$(pyenv init -)"
 export PATH="/usr/local/sbin:${PATH}"
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
