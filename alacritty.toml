@@ -1,4 +1,3 @@
-import = ["/Users/satoshi/.config/alacritty/themes/dark_pastels.toml"]
 
 [env]
 LC_CTYPE = "ja_JP.UTF-8"
@@ -37,3 +36,6 @@ lines = 40
 [window.padding]
 x = 4
 y = 4
+
+[general]
+import = ["/Users/satoshi/.config/alacritty/themes/dark_pastels.toml"]
